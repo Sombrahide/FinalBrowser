@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>name</lit_key>
+		<lit_text>Nombre</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>name</lit_key>
+		<lit_text>Name</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>lastModified</lit_key>
+		<lit_text>Ultima modificacion</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>lastModified</lit_key>
+		<lit_text>Last Modified</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList</lit_key>
+		<lit_text>Lista de Comandos</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList</lit_key>
+		<lit_text>Command List</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_goto</lit_key>
+		<lit_text>Ir al directorio indicado</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_goto</lit_key>
+		<lit_text>Go to the indicated directory</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_golast</lit_key>
+		<lit_text>Ir al ultimo directorio que se visito</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_golast</lit_key>
+		<lit_text>Go to the last directory visited</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_list</lit_key>
+		<lit_text>Listar los elementos del directorio actual</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_list</lit_key>
+		<lit_text>List the items in the current directory</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_up</lit_key>
+		<lit_text>Ir al directorio padre</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_up</lit_key>
+		<lit_text>Go to parent directory</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_infofile</lit_key>
+		<lit_text>Informacion del fichero indicado</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_infofile</lit_key>
+		<lit_text>Information of the indicated file</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_infodir</lit_key>
+		<lit_text>Informacion del directorio indicado</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_infodir</lit_key>
+		<lit_text>Information of the indicated directory</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_help</lit_key>
+		<lit_text>Mostrar todos los comandos en caso de indicar un parametro dar mas informacion sobre este</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_help</lit_key>
+		<lit_text>Show all commands, if you indicate a parameter, give more information about this</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_createdir</lit_key>
+		<lit_text>Crear un directorio</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_createdir</lit_key>
+		<lit_text>Create a directory</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_sortby</lit_key>
+		<lit_text>Mostrar el contenido del directorio indicado de forma ordenada segun el usuario</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_sortby</lit_key>
+		<lit_text>Show the contents of the indicated directory in an orderly manner according to the user</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_sortby_name</lit_key>
+		<lit_text>Ordenas de forma alfabetica</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_sortby_name</lit_key>
+		<lit_text>Sort alphabetically</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_sortby_date</lit_key>
+		<lit_text>Ordenas segun la ultima fecha de modificacion</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_sortby_date</lit_key>
+		<lit_text>Orders according to the last modification date</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_deletedir</lit_key>
+		<lit_text>Borra los directorios indicados</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_deletedir</lit_key>
+		<lit_text>Delete the indicated directories</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_deletefile</lit_key>
+		<lit_text>Borrar el/los ficheros indicados</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_deletefile</lit_key>
+		<lit_text>Delete the indicated files</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_changeidiom</lit_key>
+		<lit_text>Cambia el idioma al de tu eleccion</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_changeidiom</lit_key>
+		<lit_text>Change the idiom of your election</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_changeidiom_esp</lit_key>
+		<lit_text>Español</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_changeidiom_esp</lit_key>
+		<lit_text>Spanish</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_changeidiom_eng</lit_key>
+		<lit_text>Ingles</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_changeidiom_eng</lit_key>
+		<lit_text>English</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_clearlog</lit_key>
+		<lit_text>Limpia el log del programa</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_clearlog</lit_key>
+		<lit_text>Clean the program log</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_script</lit_key>
+		<lit_text>Carga un script</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_script</lit_key>
+		<lit_text>Load a script</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>commandList_exit</lit_key>
+		<lit_text>Salir del programa</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>commandList_exit</lit_key>
+		<lit_text>Exit the program</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>changeidiom</lit_key>
+		<lit_text>El idioma ha sido cambiado</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>changeidiom</lit_key>
+		<lit_text>The language is changed</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>clearlog</lit_key>
+		<lit_text>Log limpiado con exito</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>clearlog</lit_key>
+		<lit_text>Log cleaned successfully</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>script</lit_key>
+		<lit_text>Cargando script</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>script</lit_key>
+		<lit_text>Loading script</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>exit</lit_key>
+		<lit_text>Saliendo de la aplicacion</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>exit</lit_key>
+		<lit_text>Shutting down the aplication</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_parameternumber</lit_key>
+		<lit_text>El numero de parametros es incorrecto</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_parameternumber</lit_key>
+		<lit_text>The number of parameters is incorrect</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_sorttypeunknown</lit_key>
+		<lit_text>El tipo de ordenacion es desconocido</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_sorttypeunknown</lit_key>
+		<lit_text>The type of sort is unknown</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_idiomunknown</lit_key>
+		<lit_text>El idioma seleccionado es desconocido</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_idiomunknown</lit_key>
+		<lit_text>The selected language is unknown</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_parameternull</lit_key>
+		<lit_text>No se ha introducido ningun parámetro</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_parameternull</lit_key>
+		<lit_text>No parameters have been entered</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_sessionnull</lit_key>
+		<lit_text>No se ha encontrado ninguna session abierta</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_sessionnull</lit_key>
+		<lit_text>No open session found</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_directorynotfound</lit_key>
+		<lit_text>No se ha encontrado el directorio</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_directorynotfound</lit_key>
+		<lit_text>Directory not found</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_filenotfound</lit_key>
+		<lit_text>No se ha encontrado el fichero</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_filenotfound</lit_key>
+		<lit_text>File not found</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_commandnotfound</lit_key>
+		<lit_text>El comando indicado no existe</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_commandnotfound</lit_key>
+		<lit_text>The command no exist</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_directoryexist</lit_key>
+		<lit_text>El directorio ya existe</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_directoryexist</lit_key>
+		<lit_text>The directory already exists</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_fileexist</lit_key>
+		<lit_text>El fichero ya existe</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_fileexist</lit_key>
+		<lit_text>The file already exists</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_directoryempty</lit_key>
+		<lit_text>El directorio esta vacio</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_directoryempty</lit_key>
+		<lit_text>The directory is empty</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>esp</idi_cod>
+		<lit_key>err_nomoreup</lit_key>
+		<lit_text>No puedes subir mas</lit_text>
+	</literal>
+	<literal>
+		<idi_cod>eng</idi_cod>
+		<lit_key>err_nomoreup</lit_key>
+		<lit_text>You can't go more up</lit_text>
+	</literal>
+</class>
