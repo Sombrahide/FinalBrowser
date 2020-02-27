@@ -11,7 +11,7 @@ public class Conector {
     private ConfigurationHib configurationHib;
     private ConfigurationXML configurationXML;
     private ConfigurationMON configurationMON;
-    
+
     public LiteralXML getXml_connection() {
         return xml_connection;
     }
