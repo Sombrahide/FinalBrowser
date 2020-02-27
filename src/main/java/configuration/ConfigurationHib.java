@@ -1,7 +1,7 @@
 package configuration;
 
 import importxml.xmltohib;
-import literals.LiteralHIB;
+import mapping.literal;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
@@ -32,20 +32,24 @@ public class ConfigurationHib extends Configuration{
     public SessionFactory getNew_session() {
         return new_session;
     }
+
     public void setNew_session(SessionFactory new_session) {
         this.new_session = new_session;
     }
+
     public Session get_session() {
         return _session;
     }
+
     public void set_session(Session _session) {
         this._session = _session;
     }
+
     public void createfromxml() {
         startTransaction();
         xmltohib x = new xmltohib();
-        ArrayList<LiteralHIB> list = x.start();
-        for(LiteralHIB lit : list) {
+        ArrayList<literal> list = x.start();
+        for(literal lit : list) {
             get_session().save(lit);
         }
         get_session().flush();

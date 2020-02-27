@@ -9,7 +9,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 import configuration.ConfigurationHib;
-import literals.LiteralHIB;
+import mapping.literal;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -24,9 +24,9 @@ public class xmltohib{
         hib.createfromxml();
         hib.closeSession();
     }
-    public ArrayList<LiteralHIB> start() {
+    public ArrayList<literal> start() {
         Document doc = openXmlDom(new File("literals.xml"));
-        ArrayList<LiteralHIB> lit = getliterals(doc);
+        ArrayList<literal> lit = getliterals(doc);
         return lit;
     }
     public static Document openXmlDom(File f) {
@@ -78,7 +78,7 @@ public class xmltohib{
         return out;
     }
 
-    public static ArrayList<LiteralHIB> getliterals(Document doc){
+    public static ArrayList<literal> getliterals(Document doc){
         NodeList nodes = doc.getElementsByTagName("class");
         Element element = (Element) nodes.item(0);
         NodeList nodelist = element.getElementsByTagName("literal");
@@ -86,7 +86,7 @@ public class xmltohib{
         String idi_cod = "";
         String lit_key = "";
         String lit_text = "";
-        ArrayList<LiteralHIB> lit_array = new ArrayList<LiteralHIB>();
+        ArrayList<literal> lit_array = new ArrayList<literal>();
         //Loop to read every item of node list
         for (int i=0;i<nodelist.getLength();i++){
             //Get set of items inside CD
@@ -98,7 +98,7 @@ public class xmltohib{
                 idi_cod = el.getElementsByTagName("idi_cod").item(0).getTextContent();
                 lit_key = el.getElementsByTagName("lit_key").item(0).getTextContent();
                 lit_text = el.getElementsByTagName("lit_text").item(0).getTextContent();
-                lit_array.add(new LiteralHIB(idi_cod, lit_key, lit_text));
+                lit_array.add(new literal(idi_cod, lit_key, lit_text));
             }
         }
         return lit_array;
