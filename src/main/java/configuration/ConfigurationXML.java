@@ -15,7 +15,11 @@ import javax.xml.xpath.XPathFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-
+/**
+ * <p>The XML configuration class, this takes an XML file that you pass and is prepared so that you can search for it through expressions</p>
+ * @author Juanjo
+ *
+ */
 public class ConfigurationXML extends Configuration {
 	private File _xmlFile;
 	private Document _doc;
