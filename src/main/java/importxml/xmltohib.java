@@ -15,7 +15,16 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+/**
+ * Class for importing the data to hibernate
+ *
+ * @author Dani Garrido Morillas
+ *
+ */
 
+/**
+ * process that imports xml and saves it on hibernate
+ */
 public class xmltohib{
     public xmltohib() {
         ConfigurationHib hib = new ConfigurationHib();
@@ -24,11 +33,18 @@ public class xmltohib{
         hib.createfromxml();
         hib.closeSession();
     }
+
     public ArrayList<literal> start() {
         Document doc = openXmlDom(new File("literals.xml"));
         ArrayList<literal> lit = getliterals(doc);
         return lit;
     }
+
+    /**
+     * gets document file
+     * @param f
+     * @return
+     */
     public static Document openXmlDom(File f) {
         Document doc=null;
         //Create DocumentBuilderFactory object
@@ -52,32 +68,11 @@ public class xmltohib{
         return doc;
     }
 
-    public static String showDoc(Document doc, String lang, String error_id){
-        NodeList nodes = doc.getElementsByTagName("literals");
-        Element element = (Element) nodes.item(0);
-
-        NodeList nodelist = element.getElementsByTagName("literal");
-        Node n;
-        String out = "";
-
-        //Loop to read every item of node list
-        for (int i=0;i<nodelist.getLength();i++){
-            //Get set of items inside CD
-            n=nodelist.item(i);
-            //Check Node type is Element
-            if (n.getNodeType()==Node.ELEMENT_NODE){
-                //Cast to Element to use getElementsByTagName method
-                Element el=(Element) n;
-                //Use .item(0).getAttributes() to get atributes;
-                if (el.hasAttribute("id") && el.getAttribute("id").equals(error_id)) {
-                    out = el.getElementsByTagName(lang).item(0).getTextContent();
-                    break;
-                }
-            }
-        }
-        return out;
-    }
-
+    /**
+     * gets one literal
+     * @param doc
+     * @return
+     */
     public static ArrayList<literal> getliterals(Document doc){
         NodeList nodes = doc.getElementsByTagName("class");
         Element element = (Element) nodes.item(0);
