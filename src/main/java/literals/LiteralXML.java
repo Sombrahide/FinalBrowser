@@ -14,7 +14,7 @@ import configuration.ConfigurationXML;
  */
 
 public class LiteralXML {
-	private final String PATHXML = "C:\\Users\\Juanjo\\Desktop\\Trabajo Borja Moll\\Eclipse Workspace\\FinalBrowser\\src\\main\\resources\\literal.xml";
+	private final String PATHXML = "src/main/resources/literal.xml";
 	private ConfigurationXML _config;
 
 	/**
